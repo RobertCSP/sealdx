@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /proposal/result
+Disallow: /invoice/result
+Disallow: /api/
+
+Sitemap: https://sealdx.com/sitemap.xml
