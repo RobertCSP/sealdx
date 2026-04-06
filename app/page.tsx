@@ -247,7 +247,7 @@ export default function Home() {
       </section>
 
       {/* ── Benefits ── */}
-      <section className="px-6 py-20 bg-white/[0.02] border-t border-white/5">
+      <section className="px-6 py-20 bg-white/[0.02]">
         <div className="mx-auto max-w-5xl">
           <h2 className="text-center text-2xl font-bold text-white mb-3">
             Why teams choose Sealdx
