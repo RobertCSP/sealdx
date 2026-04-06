@@ -517,11 +517,11 @@ export default function ProposalPDF({ proposal, formData, showBranding = false }
         <View
           fixed
           style={{ position: "absolute", top: 0, left: 0, right: 0 }}
-          render={({ pageNumber, totalPages }) =>
+          render={({ pageNumber, ...rest }) =>
             pageNumber > 1 ? (
               <View style={s.slimHeaderBar}>
                 <Text style={s.slimBusinessName}>{formData.businessName}</Text>
-                <Text style={s.slimPageNum}>{pageNumber} / {totalPages}</Text>
+                <Text style={s.slimPageNum}>{pageNumber} / {(rest as Record<string, number>).totalPages}</Text>
               </View>
             ) : null
           }
@@ -602,8 +602,8 @@ export default function ProposalPDF({ proposal, formData, showBranding = false }
         <View
           fixed
           style={{ position: "absolute", bottom: 44, left: 0, right: 0 }}
-          render={({ pageNumber, totalPages }) =>
-            pageNumber === totalPages ? (
+          render={({ pageNumber, ...rest }) =>
+            pageNumber === (rest as Record<string, number>).totalPages ? (
               <View style={s.signatureSection}>
                 <Text style={s.signatureTitle}>Authorization {"&"} Acceptance</Text>
                 <View style={s.signatureColumns}>
@@ -641,8 +641,8 @@ export default function ProposalPDF({ proposal, formData, showBranding = false }
           </View>
           <Text
             style={s.pageNumber}
-            render={({ pageNumber, totalPages }) =>
-              `${pageNumber} / ${totalPages}`
+            render={({ pageNumber, ...rest }) =>
+              `${pageNumber} / ${(rest as Record<string, number>).totalPages}`
             }
           />
         </View>
