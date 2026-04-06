@@ -636,7 +636,7 @@ export default function ProposalPDF({ proposal, formData, showBranding = false }
         <View style={s.footer} fixed>
           <View style={s.footerLeft}>
             {showBranding && (
-              <Text style={s.brandingText}>Created with Sealdx · sealdx.com</Text>
+              <Text style={s.brandingText}>Created with Sealdx · getsealdx.com</Text>
             )}
           </View>
           <Text

@@ -5,4 +5,4 @@ Disallow: /proposal/result
 Disallow: /invoice/result
 Disallow: /api/
 
-Sitemap: https://sealdx.com/sitemap.xml
+Sitemap: https://www.getsealdx.com/sitemap.xml

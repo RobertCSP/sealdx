@@ -175,8 +175,8 @@ export default function PricingPage() {
         {/* FAQ teaser */}
         <p className="text-center text-sm text-slate-600 mt-10">
           Questions?{" "}
-          <a href="mailto:hello@sealdx.com" className="text-blue-500 hover:text-blue-400 transition-colors">
-            hello@sealdx.com
+          <a href="mailto:hello@getsealdx.com" className="text-blue-500 hover:text-blue-400 transition-colors">
+            hello@getsealdx.com
           </a>
         </p>
 

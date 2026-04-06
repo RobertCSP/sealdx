@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   },
   description:
     "Create professional proposals and invoices instantly with AI. No design skills needed. Free to start.",
-  metadataBase: new URL("https://sealdx.com"),
+  metadataBase: new URL("https://www.getsealdx.com"),
   openGraph: {
     title: "Sealdx — AI Proposals & Invoices in Under 2 Minutes",
     description:
       "Generate polished, client-ready proposals and invoices with AI. Close deals faster.",
-    url: "https://sealdx.com",
+    url: "https://www.getsealdx.com",
     siteName: "Sealdx",
     type: "website",
   },

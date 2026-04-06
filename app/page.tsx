@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Sealdx — AI Proposals & Invoices in Under 2 Minutes",
     description:
       "Generate professional proposals and invoices instantly with AI. Close deals faster.",
-    url: "https://sealdx.com",
+    url: "https://www.getsealdx.com",
     siteName: "Sealdx",
     type: "website",
   },
