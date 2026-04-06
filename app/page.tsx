@@ -214,7 +214,7 @@ export default function Home() {
       </main>
 
       {/* ── How It Works ── */}
-      <section className="px-6 py-20">
+      <section className="px-6 py-20 border-t border-white/5">
         <div className="mx-auto max-w-5xl">
           <p className="text-center text-xs font-semibold uppercase tracking-widest text-blue-400 mb-3">
             How it works
@@ -227,8 +227,6 @@ export default function Home() {
           </p>
 
           <div className="grid sm:grid-cols-3 gap-6 relative">
-            {/* Connecting line — desktop only */}
-            <div className="hidden sm:block absolute top-9 left-[calc(16.67%+1rem)] right-[calc(16.67%+1rem)] h-px bg-gradient-to-r from-blue-500/20 via-blue-500/40 to-blue-500/20" />
 
             {steps.map((step) => (
               <div key={step.number} className="relative flex flex-col items-center text-center p-6 rounded-2xl border border-white/5 bg-white/[0.02]">
