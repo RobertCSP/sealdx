@@ -214,7 +214,7 @@ export default function Home() {
       </main>
 
       {/* ── How It Works ── */}
-      <section className="px-6 py-20 border-t border-white/5">
+      <section className="px-6 py-20">
         <div className="mx-auto max-w-5xl">
           <p className="text-center text-xs font-semibold uppercase tracking-widest text-blue-400 mb-3">
             How it works
